@@ -30,11 +30,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         content: Text('Full name = ${data[index].firstName} '
                             '${data[index].lastName} \n'
                             'Age = ${data[index].age.toString()} \n'
-                            'E-mail = ${data[index].email}'),
+                            'E-mail = ${data[index].email} \n'
+                            'Age = ${data[index].age.toString()} '),
                         actions: [
                           TextButton(
                             onPressed: () => Navigator.of(ctx).pop(),
-                            child: Text('OK12344'),
+                            child: Text('OK Islam Yassin'),
                           )
                         ],
                       ),
